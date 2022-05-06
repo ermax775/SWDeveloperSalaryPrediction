@@ -1,0 +1,16 @@
+py -3 -m venv venv
+
+venv\Scripts\activate
+
+pip install streamlit
+
+pip install numpy pandas
+
+pip install matplotlib scikit-learn
+
+
+ipython kernel install --user --name=ml
+
+jupyter notebook
+
+
